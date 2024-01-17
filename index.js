@@ -1,4 +1,3 @@
-// a16.js
 window.addEventListener("DOMContentLoaded", () => {
   const clock = new Clock(".clock");
   const dateElement = document.getElementById("dateElement");
