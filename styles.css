@@ -16,6 +16,7 @@ body {
   color: var(--fg);
   display: flex;
   font: 1em/1.5 "Lobster Two", sans-serif;
+  flex-direction: column; /* Adjusted for responsiveness */
   height: 100vh;
   transition: background-color var(--trans-dur), color var(--trans-dur);
 }
@@ -23,6 +24,7 @@ body {
   --hrAngle: 0deg;
   --minAngle: 0deg;
   --secAngle: 0deg;
+  max-width: 100%; /* Adjusted for responsiveness */
   margin: auto;
   position: relative;
   width: 19.5em;
@@ -133,4 +135,23 @@ body {
   .clock__hand--m .clock__number {
     color: hsl(var(--hue), 10%, 80%);
   }
+}
+
+@media (max-width: 600px) {
+  .clock-container {
+    padding: 20px; /* Add some padding for better spacing */
+  }
+
+  .clock {
+    width: 100%; /* Full width on small screens */
+  }
+
+  .date {
+    margin-top: 10px; /* Adjust the margin for better spacing */
+  }
+}
+clock-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically on small screens */
+  align-items: center; /* Center elements horizontally */
 }
