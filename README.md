@@ -2,6 +2,8 @@
 
 A simple clock application built with HTML, CSS, and JavaScript. It displays the current time with hour, minute, second, and AM/PM indicators. The clock also features a dark theme that adapts to the user's preferred color scheme.
 
+##ScreenShot
+![Screenshot](./Screenshot_2.png)
 ## Features
 
 - Real-time clock display with an animated second hand.
