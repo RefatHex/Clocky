@@ -2,14 +2,16 @@
 
 A simple clock application built with HTML, CSS, and JavaScript. It displays the current time with hour, minute, second, and AM/PM indicators. The clock also features a dark theme that adapts to the user's preferred color scheme.
 
-##ScreenShot
+## Screenshot 
 ![Screenshot](./Screenshot_2.png)
+
+## Live website
+- https://aclocky.netlify.app/
 ## Features
 
 - Real-time clock display with an animated second hand.
 - Dark theme that toggles based on the user's preferred color scheme.
 - Responsive design for a pleasant experience on various devices.
-
 ## How to Use
 
 1. **Install Dependencies:**
